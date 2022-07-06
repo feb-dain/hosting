@@ -177,7 +177,7 @@ header .img_deco p button a {
 }
 .mov .video #diptyque_video{
     width: 1060px;
-    height: 560px;
+    /* height: 560px; */
     /* 포지션 */
     position: absolute;
     top: 300px;
