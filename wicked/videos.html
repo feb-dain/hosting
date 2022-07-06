@@ -13,8 +13,6 @@
     <link rel="apple-touch-icon=precomposed" href="./images/favicon.jpg">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/notosans_kr_CDN.css">
-    <!-- 스와이퍼 css -->
-    <link rel="stylesheet" href="./css/swiper-bundle.css">
     <!-- 페이지 CSS -->
     <link rel="stylesheet" href="./css/display_none_scrollbar.css">
     <link rel="stylesheet" href="./css/wicked.css">
@@ -69,15 +67,106 @@
         <!-- Contents -->
         <main role="main" id="contents">
             <!-- Contents Section -->
-            <section class="title">
-                <img src="./images/cast_main.jpg" alt="">
-                <h2>
-                    비디오 제목
-                </h2>
-                <p>
-                    비디오 설명
-                </p>
-            </section>
+            <div class="container">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/FMXuw1viyx0"></iframe>
+                </div>
+                <article class="content">
+                    <h2>
+                        뮤지컬 위키드 스팟 영상 공개!
+                    </h2>
+                    <p>
+                        # 서울을 뒤덮은 강력한 초록 돌풍!<br>
+                        거대한 판타지의 세계, 에메랄드 시티로 놀러오세요~
+                    </p>
+                </article>
+            </div>
+            <div class="container">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/DJBoylPTeHo"></iframe>
+                </div>
+                <article class="content">
+                    <h2>
+                        글린다 역 정선아/나하나 배우 인터뷰
+                    </h2>
+                    <p>
+                        # 위키드는 그냥 위키드다!<br>
+                        위키드를 더 재밌게 보고 싶다면? 인터뷰를 바로 확인하세요!
+                    </p>
+                </article>
+            </div>
+            <div class="container">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/x_3-r2gon8k"></iframe>
+                </div>
+                <article class="content">
+                    <h2>
+                        엘파바와 글린다의 환상의 하모니!
+                    </h2>
+                    <p>
+                        # 여긴 에메랄드 시티&sung;<br>
+                        옥주현(엘파바 역) / 정선아(글린다 역) 배우의 '단 하루' 
+                    </p>
+                </article>
+            </div>
+
+            <div id="o_btn" class="btn">
+                <img src="./images/black_hat.png" alt="More Button">
+                <!-- <p>더보기</p> -->
+                <p>MORE</p>
+            </div>
+
+            <div id="more">
+                <div class="container">
+                    <div class="video">
+                        <iframe src="https://www.youtube.com/embed/99WmQvFjw-o"></iframe>
+                    </div>
+                    <article class="content">
+                        <h2>
+                            글린다 역 정선아 배우의 Popular 라이브 영상
+                        </h2>
+                        <p>
+                            # 사랑스러운 글린다<br>
+                            정선아 배우의 열창, 지금 바로 들어보세요!
+                        </p>
+                    </article>
+                </div>
+                <div class="container">
+                    <div class="video">
+                        <iframe src="https://www.youtube.com/embed/SEOxdq3o5hc"></iframe>
+                    </div>
+                    <article class="content">
+                        <h2>
+                            피에로 역 서경수 배우의 '춤추듯 인생을'
+                        </h2>
+                        <p>
+                            # 춤을 추자!<br>
+                            서경수 배우의 '춤추듯 인생을' 넘버를 미리 들어보세요!
+                        </p>
+                    </article>
+                </div>
+                <div class="container">
+                    <div class="video">
+                        <iframe src="https://www.youtube.com/embed/qMStDEJkgEI"></iframe>
+                    </div>
+                    <article class="content">
+                        <h2>
+                            WWF 세계자연기금과 함께한 어스아워 캠페인
+                        </h2>
+                        <p>
+                            # 지구를 지키는 시간<br>
+                            WWF와 뮤지컬 위키드가 지구를 위해 함께 했습니다.
+                        </p>
+                    </article>
+                </div>
+            </div>
+            
+            <div id="c_btn" class="btn">
+                <img src="./images/black_hat.png" alt="Close Button">
+                <!-- <p>닫기</p> -->
+                <p>CLOSE</p>
+            </div>
+            
 
         </main>
         <!-- /Contents -->
@@ -105,10 +194,6 @@
         <!-- /Footer -->
     </div>
     <!-- 페이지 JS -->
-    <script src="./js/cast.js"></script>
+    <script src="./js/videos.js"></script>
 </body>
 </html>
-<!-- 스와이퍼 제이쿼리 플러그인 -->
-<script src="./js/swiper-bundle.js"></script>
-<!-- 스와이퍼 스크립트 커스텀, 자신의 사이트에 맞게 속성값 바꿈 -->
-<script src="./js/swiper.js"></script>
