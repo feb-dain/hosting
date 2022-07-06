@@ -65,7 +65,7 @@ input[id="menuicon"]:checked +label span:nth-child(3) {
 
 /* C. GNB 메뉴 슬라이딩 효과 */
 .header nav[class="mobile_gnb"] {
-    width: 250px;
+    width: 230px;
     height: 100%;
     background: #111;
     /* 포지션 */
@@ -105,43 +105,38 @@ input[id="menuicon"]:checked +label+nav {
 }
 
 /* 추가 코딩 */
-.header .mobile_gnb .gnb>li:last-child {
+/* .header .mobile_gnb .gnb>li:last-child {
     color: #7baa39;
     font-weight: 700;
     background: none;
-}
-/* .header .mobile_gnb .gnb>li:last-child>a:hover {
-    cursor: default;
 } */
 
 /* SNS */
 .header .mobile_gnb .sns {
     display: table;
-    width: 234px;
-    padding-left: 24px;
+    margin-top: 11px;
+    margin-top: 10px;
+    padding-left: 26px;
 }
 .header .mobile_gnb .sns li {
     display: table-cell;
     width: 70px;
+    width: 30px;
+    padding-right: 18px;
 }
 .header .mobile_gnb .sns li a {
     display: table-cell;
     width: 70px;
+    width: 32px;
     height: 40px;
+    height: 32px;
     text-align: center;
-    padding-top: 11px;
+    /* padding-top: 11px; */
 }
 .header .mobile_gnb .sns i {                                                                                                                                                                                                                                                                                                    
-    font-size: 1.2rem;
-    color: #fff;
+    font-size: 1.25rem;
+    color: #cdcdcd;
 }
-.header .mobile_gnb .sns .facebook {background-color: #3c5a98;}
-.header .mobile_gnb .sns .facebook:hover {background-color: #2b4b8e;}
-.header .mobile_gnb .sns .twitter {background-color: #56acef;}                                                                                                                                                                                  
-.header .mobile_gnb .sns .twitter:hover {background-color: #2898f0;}                                                                                                                                                  ns .twitter:hover {background-color: #2898f0;}
-.header .mobile_gnb .sns .insta {background-color: #5cbf4a;}
-.header .mobile_gnb .sns .insta:hover {background-color: #2eb116;}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-
 /* LOGO */
 .logo {
     text-align: center;
@@ -175,6 +170,7 @@ input[id="menuicon"]:checked +label+nav {
     margin-top: 18px;
     margin-right: 24px;
 } */
+
 /* Contents */
 #contents {
     width: 100%;
@@ -252,13 +248,6 @@ footer .footer_img img {
 footer .footer_img p:nth-child(2) {
     padding-top: 10px;
     color: #686868;
-    /* height: 70px;
-    margin-left: 0;
-    margin-right: 40px;
-    color: #a0a0a0;
-    letter-spacing: normal; */
-    /* 플롯 */
-    /* float: right; */
 }
 footer p {
     font-family: 'Noto Sans KR',sans-serif;
